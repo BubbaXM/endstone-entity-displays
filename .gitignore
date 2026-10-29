@@ -1,0 +1,24 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build output (embedded runtime pack assets in src/ are intentionally tracked)
+dist/
+build/
+*.egg-info/
+
+# Local configuration, runtime data and editor files
+.env
+.env.*
+*.log
+.test-tmp/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

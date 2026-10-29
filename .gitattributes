@@ -1,0 +1,2 @@
+# Preserve exact source bytes to keep embedded packs and their hashes in sync.
+* -text

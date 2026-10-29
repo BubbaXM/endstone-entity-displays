@@ -1,0 +1,11 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Entity Displays - Resources",
+    "description": "Independent XYZ transforms with vanilla block, door and chest textures",
+    "uuid": "00cf0fbe-3f16-426c-9faa-8803a6c051b0",
+    "version": [0, 2, 1],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [{"type": "resources", "uuid": "b1bfa858-b450-40c0-9639-b8785c1eb322", "version": [0, 2, 1]}]
+}

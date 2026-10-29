@@ -1,0 +1,12 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Entity Displays - Behaviors",
+    "description": "Transformable block displays, doors and chest models",
+    "uuid": "01c7ead0-95fe-4879-913a-d17d22e2d9e6",
+    "version": [0, 2, 1],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [{"type": "data", "uuid": "0043cd17-667e-4fbf-9c24-4c4750c89e00", "version": [0, 2, 1]}],
+  "dependencies": [{"uuid": "00cf0fbe-3f16-426c-9faa-8803a6c051b0", "version": [0, 2, 1]}]
+}

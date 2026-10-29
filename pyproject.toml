@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "endstone-entity-displays"
+version = "0.2.2"
+description = "Client-only block displays with XYZ transforms, special door/chest models and a Python API"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.entry-points.endstone]
+entity_displays = "endstone_entity_displays:EntityDisplaysPlugin"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/endstone_entity_displays"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"README.md" = "endstone_entity_displays/docs/README.md"
